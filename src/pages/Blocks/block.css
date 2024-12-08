@@ -1,0 +1,20 @@
+
+.blocks {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+
+}
+
+.blocks-header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.blocks-header> button{
+    width: 20%;
+}
+.blocks-header>h4 {
+    color: #374957 !important;
+}

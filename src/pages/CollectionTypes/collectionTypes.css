@@ -1,0 +1,16 @@
+
+.collection-types {
+    padding: 20px;
+    margin: 20px;
+}
+.collection-types-header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.collection-types-header> button{
+    width: 20%;
+}
+.collection-types-header >h4 {
+    color: #374957 !important;
+}

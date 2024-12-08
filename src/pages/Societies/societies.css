@@ -1,0 +1,20 @@
+
+.societies {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+
+}
+
+.societies-header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.societies-header> button{
+    width: 20%;
+}
+.societies-header>h4 {
+    color: #374957 !important;
+}

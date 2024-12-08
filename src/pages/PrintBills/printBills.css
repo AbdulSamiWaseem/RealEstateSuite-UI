@@ -1,0 +1,21 @@
+.print-bills{
+    margin: 20px
+}
+.print-bills-list {
+    border-radius: 20px;
+    margin: 20px 0;
+
+}
+.print-bills-filter-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 1.25rem;
+    color: #374957;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eadaff;
+}
+.print-bills-filter-content{
+    margin-top: 10px;
+}

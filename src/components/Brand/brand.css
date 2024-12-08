@@ -1,0 +1,41 @@
+.brand {
+    /* position: absolute; */
+    top: 20px;
+    left: 15px;
+    color: #9333EA !important;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.elipse {
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    background-color: #9333EA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.elipse2 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.elipse3 {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: #9333EA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,19 @@
+
+.units {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+
+}
+.units-header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.units-header> button{
+    width: 20%;
+}
+.units-header >h4 {
+    color: #374957 !important;
+}

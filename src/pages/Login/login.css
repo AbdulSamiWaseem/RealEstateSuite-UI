@@ -1,0 +1,214 @@
+.login-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    color: #878787;
+  }
+  
+  .left-section,
+  .right-section {
+    padding: 50px;
+  }
+  
+  .left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 600px; /* To keep form inputs from stretching too wide on large screens */
+    width: 100%;
+    margin: 0 auto;
+    width: 40%;
+  }
+  
+  .left-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 2px solid #c0c0c0;
+    width: 100%; 
+  }
+  
+  .password-input {
+    position: relative;
+  }
+  
+  .password-input input {
+    padding-right: 35px; /* Space for the password toggle icon */
+  }
+  
+  .password-toggle {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .keep-logged-in {
+    display: flex;
+    align-items: center;
+  }
+  
+  .keep-logged-in input {
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #9333EA; /* Adjust to the purple button color */
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+    width: 50%; /* Ensures the button is responsive */
+  }
+  
+  .vector{
+    position: absolute;
+  }
+  .vector2{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+  }
+  .logo{
+    position: absolute;
+    top:20px;
+    left:15px;
+    color: #9333EA;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  input:focus{
+    outline: none;
+  }
+  .elipse{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #9333EA;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+  }
+  .elipse2{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #ffff;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .elipse3{
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #9333EA;
+    position: absolute;
+  }
+  
+  
+  .right-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+  }
+  
+  /* .image-container {
+    max-width: 80%;
+  } */
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  .image-container {
+    position: relative;
+    max-width: 100%; /* Limit the max width for better responsiveness */
+    aspect-ratio: 16/9; /* Maintain aspect ratio */
+    overflow: hidden; /* Crop overflowing parts */
+    border-radius: 30% 50% 50% 30%; /* Make the image more curved or circular */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Optional shadow for depth */
+    background: linear-gradient(145deg, #50c9c3, #9667ea); /* To add gradient effect if needed */
+  }
+  
+
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .login-container {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .left-section,
+    .right-section {
+      flex: none;
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .left-section h1 {
+      font-size: 2.5rem;
+    }
+  
+    button {
+      width: 100%;
+    }
+  
+    .image-container {
+      max-width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .left-section h1 {
+      font-size: 2rem;
+    }
+  
+    .keep-logged-in {
+      font-size: 0.9rem;
+    }
+  
+    input[type="email"],
+    input[type="password"] {
+      padding: 8px;
+    }
+  
+    button {
+      padding: 8px;
+    }
+  
+    .left-section {
+      padding: 10px; /* Reduce padding for smaller devices */
+    }
+  }
+  

@@ -1,0 +1,12 @@
+
+.societies-list {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    width: 60%;
+
+}
+
+.societies-list>h4 {
+    color: #374957 !important;
+}

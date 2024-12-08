@@ -1,0 +1,21 @@
+
+.users-list {
+    padding: 20px;
+    margin: 20px;
+}
+.users-list-header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.users-list-header button{
+    width: 200px;
+    margin-right:1rem ;
+    height: 50px;
+}
+.users-list-header >h4 {
+    color: #374957 !important;
+}
+.users-list-header >div{
+    display: flex;
+}

@@ -1,0 +1,20 @@
+
+.bills {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+
+}
+
+.bills-header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.bills-header> button{
+    width: 20%;
+}
+.bills-header>h4 {
+    color: #374957 !important;
+}

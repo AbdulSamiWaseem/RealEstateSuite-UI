@@ -1,0 +1,11 @@
+.properties-list {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    width: 48%;
+}
+
+.properties-list>h4 {
+    color: #374957 !important;
+}
+

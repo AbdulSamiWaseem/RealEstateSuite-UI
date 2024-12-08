@@ -1,0 +1,71 @@
+.addproperty{
+    margin: 20px;
+}
+.property-details {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 20px;
+}
+.property-details h4{
+    color: #374957;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eadaff;
+}
+
+.property-details select {
+    border: 1px solid #d7dbdd;
+    width: 30%;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px 10px;
+    appearance: none;
+    background: url("../../assets/Vector.png") no-repeat right 10px center;
+    outline: none;
+    font-weight: 500;
+}
+.property-owner{
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 20px;
+}
+.property-owner >h4{
+    color: #9747ff;
+}
+.attachment{
+    background-image: linear-gradient(to bottom,#9747ff,#efe8f8);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+.property-owner>button{
+    width: 5rem ;
+}
+.property-owner-details {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 20px;
+}
+.property-owner-details h5{
+    background-color: #9747ff;
+    color: white;
+    border-radius: 10px;
+    width: 20%;
+    padding: 10px;
+    font-size: 1.15rem;
+}
+
+.property-owner-details input {
+    border: 1px solid #d7dbdd;
+    width: 40%;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px 10px;
+}

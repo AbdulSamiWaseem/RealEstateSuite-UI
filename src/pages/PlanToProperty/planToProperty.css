@@ -1,0 +1,16 @@
+
+.collection-planToProperty {
+    padding: 20px;
+    margin: 20px;
+}
+.collection-planToProperty-header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.collection-planToProperty-header> button{
+    width: 20%;
+}
+.collection-planToProperty-header >h4s {
+    color: #374957 !important;
+}

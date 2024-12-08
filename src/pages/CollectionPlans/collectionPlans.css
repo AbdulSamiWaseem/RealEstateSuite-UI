@@ -1,0 +1,16 @@
+
+.collection-plans {
+    padding: 20px;
+    margin: 20px;
+}
+.collection-plans-header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.collection-plans-header> button{
+    width: 20%;
+}
+.collection-plans-header >h4 {
+    color: #374957 !important;
+}

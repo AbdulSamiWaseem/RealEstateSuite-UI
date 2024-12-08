@@ -1,0 +1,19 @@
+
+.cities {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+
+}
+.cities-header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.cities-header> button{
+    width: 20%;
+}
+.cities-header >h4 {
+    color: #374957 !important;
+}

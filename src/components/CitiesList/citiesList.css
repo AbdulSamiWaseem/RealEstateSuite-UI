@@ -1,0 +1,12 @@
+
+.cities-list {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    width: 40%;
+
+}
+
+.cities-list>h4 {
+    color: #374957 !important;
+}

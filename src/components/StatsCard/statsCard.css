@@ -1,0 +1,27 @@
+.stats-card {
+    padding: 15px;
+    border-radius: 10px;
+    height: 100px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, #ff7e5f, #feb47b)
+  }
+  
+  .card-content {
+    display: flex;
+  }
+  
+  .card-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #ff7e5f;
+    font-size: 1.75rem;
+    height: 60px;
+    margin-left: 10px;
+    padding: 10px;
+  }
+  

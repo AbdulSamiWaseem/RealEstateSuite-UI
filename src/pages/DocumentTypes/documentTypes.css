@@ -1,0 +1,20 @@
+
+.document-types {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+
+}
+
+.document-types-header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.document-types-header> button{
+    width: 20%;
+}
+.document-types-header>h4 {
+    color: #374957 !important;
+}
